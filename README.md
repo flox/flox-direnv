@@ -22,16 +22,16 @@ Add the following to your project's `.envrc` file.
 $ echo 'use flox' >> .envrc
 ```
 
-If you'd like to use a remote environment instead of the local one, populate your `.envrc` as follows.
+If you'd like to use a FloxHub environment instead of the local one, populate your `.envrc` as follows.
 
 ```console
-$ echo 'use flox --remote=<owner>/<name>' >> .envrc
+$ echo 'use flox -r=<owner>/<name>' >> .envrc
 ```
 
-And to trust the remote envrionment explicitly.
+And to trust the FloxHub envrionment explicitly.
 
 ```console
-$ echo 'use flox --trust --remote=<owner>/<name>' >> .envrc
+$ echo 'use flox --trust -r=<owner>/<name>' >> .envrc
 ```
 
 ## Hello from the Flox team!

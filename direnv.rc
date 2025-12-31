@@ -2,17 +2,17 @@
 #
 # Loads the environment variables from a Flox envrionment
 # By default, uses the ".flox" directory to load the envrionment from
-# You can also specify a remote envrionment as follows
+# You can also specify a FloxHub envrionment as follows
 # 
 # ```
-# use_flox --remote=<owner>/<name>
+# use_flox -r=<owner>/<name>
 # ```
 # or
 # ```
-# use_flox --trust --remote=<owner>/<name>
+# use_flox --trust -r=<owner>/<name>
 # ```
 #
-# Where <owner>/<name> is the name of the remote environment on FloxHub
+# Where <owner>/<name> is the name of the environment on FloxHub.
 #
 # You can also specify another directory to load the environment from
 #
