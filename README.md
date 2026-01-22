@@ -8,6 +8,12 @@ If you're using a recent version of direnv, no additional installation is needed
 echo 'use flox' >> .envrc && direnv allow
 ```
 
+You can also pass any flags supported by `flox activate`, such as `-s` to start services:
+
+```console
+echo 'use flox -s' >> .envrc
+```
+
 ### Manual Installation (Older Direnv Versions)
 
 The Flox Direnv integration can be installed in the following ways.
