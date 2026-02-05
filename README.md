@@ -1,3 +1,5 @@
+# Deprecated as this has been upstreamed into direnv
+
 ## Installation
 
 The Flox Direnv intigation can be installed in the following ways.
