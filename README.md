@@ -2,7 +2,23 @@
 
 ## Installation
 
-The Flox Direnv intigation can be installed in the following ways.
+### Built-in Support (Direnv 2.36+)
+
+If you're using a recent version of direnv, no additional installation is needed; simply add the `use flox` line in your `.envrc` file and allow it:
+
+```sh
+echo 'use flox' >> .envrc && direnv allow
+```
+
+You can also pass any flags supported by `flox activate`, such as `-s` to start services:
+
+```console
+echo 'use flox -s' >> .envrc
+```
+
+### Manual Installation (Older Direnv Versions)
+
+The Flox Direnv integration can be installed in the following ways.
 
 By using Direnv's `source_url`:
 
@@ -30,7 +46,7 @@ If you'd like to use a FloxHub environment instead of the local one, populate yo
 $ echo 'use flox -r=<owner>/<name>' >> .envrc
 ```
 
-And to trust the FloxHub envrionment explicitly.
+And to trust the FloxHub environment explicitly.
 
 ```console
 $ echo 'use flox --trust -r=<owner>/<name>' >> .envrc
